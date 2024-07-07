@@ -1,3 +1,4 @@
+import WorkHistory from "@/components/companies";
 import Image from "next/image";
 
 export default function Home() {
@@ -36,18 +37,9 @@ export default function Home() {
 
       <div className="mt-10 mx-auto text-center p-10">
         <h1 className="text-4xl mb-20">
-          I'm proud to have woked in some awesome companies
+          I'm proud to have woked in some awesome companies.
         </h1>
-
-        <div className="flex gap-4 w-full justify-center items-center">
-          <Image
-            src={"/epam_logo_light.svg"}
-            alt={"EPAM Logo"}
-            width={100}
-            height={100}
-            className="text-black"
-          />
-        </div>
+        <WorkHistory />
       </div>
     </div>
   );

@@ -1,9 +1,12 @@
+import WorkHistory from "@/components/companies";
+import SkillSet from "@/components/skillset";
 import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="mx-auto w-8/12 mt-20">
-      <div className="text-center mb-20">AboutPage</div>
+    <div className="mt-10 mx-auto text-center p-10">
+      {/* <WorkHistory /> */}
+      <SkillSet />
     </div>
   );
 };
