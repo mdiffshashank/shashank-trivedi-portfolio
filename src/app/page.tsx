@@ -40,7 +40,7 @@ export default function Home() {
         <Testimonials />
       </div>
 
-      <div className="bg-slate-900 text-white w-10/12 mx-auto grid gap-4 sm:gap-2 p-8 grid-cols-1 md:grid-cols-3 place-items-center h-auto sm:h-[12rem] rounded-md relative -bottom-20 ">
+      <div className="bg-slate-900 text-white w-10/12 mx-auto grid gap-4 sm:gap-2 p-8 grid-cols-1 md:grid-cols-3 place-items-center h-auto sm:h-[12rem] rounded-md relative -bottom-14 ">
         <h1 className="text-xl ">Start a project </h1>
         <p className="">
           Interested in working together? We should queue up a time to chat.

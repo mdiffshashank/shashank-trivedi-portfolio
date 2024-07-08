@@ -1,11 +1,8 @@
+import Image from "next/image";
 import React from "react";
 
 const Logo = () => {
-  return (
-    <div className="flex  justify-center items-center size-12 bg-violet-500 rounded-sm text-white p-6">
-      S
-    </div>
-  );
+  return <Image src={"/logo.png"} alt={"Logo"} width={50} height={50} />;
 };
 
 export default Logo;
