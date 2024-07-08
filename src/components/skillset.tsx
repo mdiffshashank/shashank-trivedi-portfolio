@@ -3,11 +3,11 @@ import Image from "next/image";
 
 const SkillSet = () => {
   return (
-    <div>
-      <h1 className="capitalize mt-20 mb-20  text-4xl text-center">
+    <div className="">
+      {/* <h1 className="capitalize mt-20 mb-20  text-4xl text-center">
         Skills achieved over the years
-      </h1>
-      <div className="grid grid-cols-5 gap-8 mx-auto w-7/12 text-center ">
+      </h1> */}
+      <div className="grid grid-cols-2 gap-8 mx-auto w-4/12 text-center font-semibold md:grid-cols-3">
         <Image
           src={"/html_logo.svg"}
           alt={"HTML Logo"}
@@ -16,13 +16,7 @@ const SkillSet = () => {
         />
         <Image src={"/css-logo.svg"} alt={"CSS Logo"} width={50} height={50} />
         <Image src={"/js-logo.png"} alt={"JS Logo"} width={50} height={50} />
-        <Image
-          src={"/ts-logo.svg"}
-          alt={"TS Logo"}
-          width={50}
-          height={50}
-          className="border-2"
-        />
+        <Image src={"/ts-logo.svg"} alt={"TS Logo"} width={50} height={50} />
         <Image
           src={"/react-logo.svg"}
           alt={"React Logo"}
@@ -35,7 +29,6 @@ const SkillSet = () => {
           alt={"next Logo"}
           width={50}
           height={50}
-          className="border-2"
         />
       </div>
     </div>

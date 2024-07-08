@@ -10,9 +10,18 @@ body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+::selection{
+  background-color: blueviolet;
+  color:#fff;
+}
 @layer base{
   .btn{
     @apply
     text-violet-700 px-4 py-3 rounded-3xl border-2 border-violet-700 hover:bg-violet-700 hover:text-white
+  }
+  .highlight-btn{
+    @apply
+    text-white px-10 py-3 rounded-3xl border-2 border-white
+
   }
 }

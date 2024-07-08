@@ -1,6 +1,7 @@
 import { navlist } from "@/navlist";
 import Link from "next/link";
 import React from "react";
+import Logo from "./logo";
 
 const Header = () => {
   return (
@@ -8,9 +9,7 @@ const Header = () => {
       <div className="flex justify-between items-center">
         <div>
           <Link href={"/"}>
-            <div className="flex  justify-center items-center size-12 bg-violet-800 rounded-sm text-white">
-              S
-            </div>
+            <Logo />
           </Link>
         </div>
         <nav>

@@ -1,4 +1,6 @@
+import Avatar from "@/components/avatar";
 import WorkHistory from "@/components/companies";
+import HighlightButton from "@/components/highlight-button";
 import Image from "next/image";
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
         <p className="text-2xl">
           I love frontend and write beautiful code on javascript.
         </p>
+
+        <Avatar />
 
         <Image
           src={"/devices.svg"}
@@ -26,12 +30,7 @@ export default function Home() {
           Hi, I’m Shashank Trivedi. Nice to meet you.
         </h1>
         <p className=" text-center text-md mx-auto w-7/12">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A,
-          repellendus quo? Perspiciatis quia dignissimos suscipit vitae dolor
-          nam provident et laboriosam molestiae dolorem quaerat maiores debitis,
-          enim temporibus! Assumenda cumque temporibus asperiores sint ipsa
-          quisquam, fugiat quam dolorum dolore, saepe ea consequatur amet
-          pariatur rem incidunt iste quod voluptate unde!
+          I create web applications in React, Next & Node.
         </p>
       </div>
 
@@ -40,6 +39,14 @@ export default function Home() {
           I'm proud to have woked in some awesome companies.
         </h1>
         <WorkHistory />
+      </div>
+
+      <div className="bg-slate-900 text-white w-10/12 mx-auto grid grid-cols-3 place-items-center h-[12rem] rounded-md relative -bottom-20 ">
+        <h1 className="text-xl ">Start a project </h1>
+        <p className="">
+          Interested in working together? We should queue up a time to chat.
+        </p>
+        <HighlightButton />
       </div>
     </div>
   );
