@@ -36,7 +36,7 @@ export default function Home() {
 
       <div className="mt-10 mx-auto text-center p-10">
         <h1 className="text-4xl mb-20">
-          I'm proud to have woked in some awesome companies.
+          I &apos;m proud to have woked in some awesome companies.
         </h1>
         <WorkHistory />
       </div>
