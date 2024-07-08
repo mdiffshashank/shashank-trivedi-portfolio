@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="w-full h-96 bg-violet-700 text-white p-20 pt-40 mx-auto text-center flex flex-col justify-center items-center">
+    <footer className="w-full sm:h-96 bg-violet-700 text-white p-5 sm:p-20 pt-40 mx-auto text-center flex flex-col justify-center items-center">
       <Logo />
 
       <h1 className="text-xl tracking-wider mt-4">

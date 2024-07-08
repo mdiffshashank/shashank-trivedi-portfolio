@@ -12,14 +12,17 @@ export default async function SayHello() {
       </div>
 
       <form action={sendMessage} className="">
-        <div className="grid grid-cols-2 gap-8">
-          <label htmlFor="name" className="text-xl text-gray-600 tracking-wide">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          <label
+            htmlFor="name"
+            className=" text-xl text-gray-600 tracking-wide"
+          >
             Name
           </label>
 
           <label
             htmlFor="email"
-            className="text-xl text-gray-600 tracking-wide"
+            className="text-xl  text-gray-600 tracking-wide"
           >
             Email
           </label>
@@ -53,7 +56,7 @@ export default async function SayHello() {
             className="p-4 rounded-sm outline-none col-span-2 mb-12"
           />
         </div>
-        <div className="col-span-2 flex justify-center">
+        <div className="col-span-2 flex justify-center mb-10">
           <button className="btn px-10">Submit</button>
         </div>
       </form>

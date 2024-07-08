@@ -7,7 +7,7 @@ const Card = ({
   children: React.ReactNode;
   fullwidth?: boolean;
 }) => {
-  const width = fullwidth ? "w-full" : "w-80";
+  const width = fullwidth ? "w-full" : "w-30 sm:w-80";
 
   return (
     <div

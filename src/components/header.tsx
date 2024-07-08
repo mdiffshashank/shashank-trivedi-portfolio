@@ -5,21 +5,22 @@ import Logo from "./logo";
 
 const Header = () => {
   return (
-    <header className="w-full h-20 px-8 py-8">
-      <div className="flex justify-between items-center">
+    <header className="w-full sm:h-20 px-8 py-8">
+      <div className="flex flex-col sm:flex-row justify-between items-center ">
         <div>
           <Link href={"/"}>
             <Logo />
           </Link>
         </div>
-        <nav>
+
+        <nav className="flex flex-col sm:flex-row justify-between items-center ">
           {navlist.map((nav, index) => {
             const lastIndex = navlist.length - 1;
             return (
               <Link
                 key={nav.title}
                 href={nav.route}
-                className="p-8 hover:text-violet-700"
+                className="p-2 sm:p-8 hover:text-violet-700"
               >
                 {index !== lastIndex ? (
                   <>{nav.title}</>
