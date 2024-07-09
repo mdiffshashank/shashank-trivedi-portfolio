@@ -4,6 +4,7 @@
 
 :root{
   --bg-dark : #eee;
+  --primary:blueviolet
 }
 body{
   background-color:var(--bg-dark);
@@ -11,13 +12,18 @@ body{
 }
 
 ::selection{
-  background-color: blueviolet;
+  background-color: var(--primary);
   color:#fff;
 }
+
+::marker{
+  background-image: url("/check.svg");
+}
+
 @layer base{
   .btn{
     @apply
-    text-violet-700 px-4 py-3 rounded-3xl border-2 border-violet-700 hover:bg-violet-700 hover:text-white
+    text-violet-700 px-12 py-3 rounded-3xl border-2 border-violet-700 hover:bg-violet-700 hover:text-white
   }
   .highlight-btn{
     @apply

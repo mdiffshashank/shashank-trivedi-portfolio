@@ -6,7 +6,7 @@ import Navigation from "./navigation";
 
 const Header = () => {
   return (
-    <header className="w-full sm:h-20 px-8 py-8">
+    <header className="w-full sm:h-32 p-4">
       <div className="flex flex-col sm:flex-row justify-between items-center ">
         <div>
           <Link href={"/"}>

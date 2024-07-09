@@ -32,16 +32,20 @@ export default async function SayHello() {
             name="name"
             id="name"
             required
-            className="p-4 rounded-sm outline-none"
+            className="p-4 rounded-sm outline-none peer"
           />
 
           <input
-            type="text"
+            type="email"
             name="email"
             id="email"
             required
             className="p-4 rounded-sm outline-none"
           />
+
+          <p className="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
+            Please provide a valid email address.
+          </p>
 
           <label
             htmlFor="message"
