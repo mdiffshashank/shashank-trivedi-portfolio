@@ -2,7 +2,7 @@ import React from "react";
 
 const Introduction = () => {
   return (
-    <p className="text-zinc-600 text-lg px-16 tracking-wide first-letter:text-violet-700 first-letter:text-4xl">
+    <p className="text-justify text-zinc-600  tracking-wide first-letter:text-violet-700 first-letter:text-4xl">
       Hello folks, I am a seasoned frontend developer with over 9 years of
       expertise in creating innovative web applications. My journey spans
       diverse domains, including insurance, finance, retail, and education,

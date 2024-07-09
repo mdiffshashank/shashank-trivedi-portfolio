@@ -3,11 +3,11 @@ import Image from "next/image";
 
 const SkillSet = () => {
   return (
-    <div className="">
+    <div>
       {/* <h1 className="capitalize mt-20 mb-20  text-4xl text-center">
         Skills achieved over the years
       </h1> */}
-      <div className="grid grid-cols-2 gap-8 mx-auto w-4/12 text-center font-semibold md:grid-cols-3">
+      <div className="grid grid-cols-2 gap-8 mx-auto w-4/12 text-center font-semibold md:grid-cols-3 mt-8">
         <Image
           src={"/html_logo.svg"}
           alt={"HTML Logo"}
