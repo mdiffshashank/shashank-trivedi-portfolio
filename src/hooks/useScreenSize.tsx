@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const initialize = (): boolean => {
+const initialize = () => {
   if (window.innerWidth < 640) {
     return true;
   } else {
@@ -21,9 +21,12 @@ export default function useScreenSize() {
         setSize(false);
       }
     }
+
     window.addEventListener("resize", handleResize);
 
-    return () => window.removeEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   return { isMobile: size };

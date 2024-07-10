@@ -1,4 +1,3 @@
-import { navlist } from "@/navlist";
 import Link from "next/link";
 import React from "react";
 import Logo from "./logo";
