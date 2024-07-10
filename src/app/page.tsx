@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <div>
       <div className="flex flex-col justify-center items-center px-8 pt-8 w-full ">
-        <h1 className="capitalize mt-20 mb-10 font-bold text-4xl">
+        <h1 className="text-center capitalize mt-2 sm:mt-20 mb-6 sm:mb-10 font-bold text-3xl md:text-4xl">
           Frontend Developer. Trainer & Mentor
         </h1>
-        <p className="text-2xl">
+        <p className="text-center text-xl sm:text-2xl">
           I love frontend and write beautiful code on javascript.
         </p>
 
@@ -27,7 +27,7 @@ export default function Home() {
       </div>
 
       <div className="w-full bg-violet-700 text-white text-xl h-[520px] pt-20 px-12 ">
-        <h1 className="text-4xl text-center mb-10">
+        <h1 className="text-3xl sm:text-4xl text-center mb-10">
           Hi, I&apos;m Shashank Trivedi. Nice to meet you.
         </h1>
         <p className=" text-center text-md mx-auto w-7/12">
