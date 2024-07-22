@@ -1,16 +1,11 @@
 "use client";
 
-import useScreenSize from "@/hooks/useScreenSize";
 import { navlist } from "@/navlist";
-import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useState } from "react";
 
 const Navigation = () => {
   const pathname = usePathname();
-  const { isMobile } = useScreenSize();
-  const [isVisible, setIsvisible] = useState<boolean>();
 
   return (
     <nav className="flex flex-col sm:flex-row justify-between items-center ">
