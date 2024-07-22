@@ -7,6 +7,7 @@ export const navlist = [
     {
       route: "/projects",
       title: "Projects",
+      disabled:true,
     },
     {
       route: "/blogs",

@@ -24,7 +24,7 @@ const Navigation = () => {
               pathname === nav.route
                 ? " text-violet-700 border-b-2 border-violet-700"
                 : ""
-            }`}
+            } ${nav.disabled ? "disabled" : ""}`}
           >
             {index !== lastIndex ? (
               <>{nav.title}</>

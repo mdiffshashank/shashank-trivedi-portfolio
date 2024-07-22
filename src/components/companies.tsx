@@ -6,7 +6,7 @@ const WorkHistory = ({ hideTitle = false }: { hideTitle?: boolean }) => {
     <>
       {!hideTitle && (
         <h1 className="text-4xl mb-20">
-          I &apos;m proud to have woked in some awesome companies.
+          I &apos;m proud to have worked in some awesome companies.
         </h1>
       )}
 

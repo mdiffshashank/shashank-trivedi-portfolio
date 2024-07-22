@@ -16,7 +16,7 @@ const SkillSet = () => {
         />
         <Image src={"/css-logo.svg"} alt={"CSS Logo"} width={50} height={50} />
         <Image src={"/js-logo.png"} alt={"JS Logo"} width={50} height={50} />
-        <Image src={"/ts-logo.svg"} alt={"TS Logo"} width={50} height={50} />
+        <Image src={"/ts-logo.png"} alt={"TS Logo"} width={50} height={50} />
         <Image
           src={"/react-logo.svg"}
           alt={"React Logo"}
