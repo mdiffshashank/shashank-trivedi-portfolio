@@ -6,7 +6,14 @@ const Projects = () => {
       <Card>
         <div className={"text-xl text-center"}>
           <a href="https://todo-app-dun-phi.vercel.app/" target="_blank">
-            Todo- APP with Data Persistence
+            Todo- APP with Data Persistence developed in React
+          </a>
+        </div>
+      </Card>
+      <Card>
+        <div className={"text-xl text-center"}>
+          <a href="https://nextjs-book-store.vercel.app/" target="_blank">
+            Book Store application developed in Next JS
           </a>
         </div>
       </Card>
