@@ -4,7 +4,7 @@ import Link from "next/link";
 const Blogs = () => {
   return (
     <div className="mx-auto w-10/12 mt-20">
-      <div className="p-8 mx-auto  mt-20 grid grid-cols-4 gap-4 w-full place-items-center">
+      <div className=" mx-auto  mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-2 w-full place-items-center">
         <Card>
           Get the details of
           <Link
